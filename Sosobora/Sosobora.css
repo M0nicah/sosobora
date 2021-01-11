@@ -1,0 +1,85 @@
+body{
+    color:black;
+    font-family: cursive;
+    background-color: blue;
+    background-repeat: no-repeat;
+    
+}
+h1, h2, h3{
+    font-size: 10px; 
+}
+p{
+    font-size: 10px;    
+}
+.heading img{
+    width: 0.5cm;
+    height: 0.5cm;
+}
+ul{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+li a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+    min-height: min-content;
+    list-style-type: none;
+    
+    
+    
+}
+
+.heading{
+    background-color: white;
+    margin-right: 200px;
+    margin-left: 200px;
+    
+}
+.section {
+   width: 200px;
+   height: 200px;
+   margin-top: 150px;
+   margin-left: 650px;
+   padding: 25px;
+   color: black;
+   font-style: oblique;
+   text-align: justify;
+    
+}
+a:link,
+a:visited {
+    color: black;
+    display: inline-block;
+
+}
+a:hover,
+a:active {
+    background-color: blue;
+    color: black;
+
+}
+.footer{
+    margin-top: 30%;
+    padding: 30px;
+    text-align: left;
+    font-style: italic;
+    color: white;
+    
+}
+.card{
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px; 
+}
+
