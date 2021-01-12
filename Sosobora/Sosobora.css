@@ -2,7 +2,7 @@ body{
     color:black;
     font-family: cursive;
     background-color: blue;
-    background-repeat: no-repeat;
+    
     
 }
 h1, h2, h3{
@@ -35,10 +35,8 @@ li a{
     min-height: min-content;
     list-style-type: none;
     
-    
-    
-}
 
+}
 .heading{
     background-color: white;
     margin-right: 200px;
@@ -81,5 +79,6 @@ a:active {
     margin-left: 30px;
     width: 200px;
     height: 200px; 
+    
 }
 
