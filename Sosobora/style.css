@@ -42,14 +42,20 @@ a:hover, a:active{
 form{
     margin-left: 600px;
 }
-.card{
-    margin-top: 200px;
-    width: 250px;
-    height: 330px;
-}
+
 .card-title{
     font-family: fantasy;
 
 }
 
+.card-container {
+    padding: 10px;
+}
 
+.row {
+    padding: 5px;
+}
+
+.container {
+    margin-top: 380px;
+}
