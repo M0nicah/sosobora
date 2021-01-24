@@ -4,9 +4,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    
-  
-    
+      
     
 }
 h1, h2, h5{
@@ -39,9 +37,6 @@ li{
 a:hover, a:active{
     background-color:white;
 }
-form{
-    margin-left: 600px;
-}
 
 .card-title{
     font-family: fantasy;
@@ -58,4 +53,8 @@ form{
 
 .container {
     margin-top: 380px;
+}
+.card{
+    width:150px;
+    height:160px;
 }
