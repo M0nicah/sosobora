@@ -1,0 +1,2 @@
+# sosobora
+static school website
