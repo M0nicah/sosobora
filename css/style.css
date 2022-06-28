@@ -1,10 +1,3 @@
-/*
-
-DIGITAL TREND
-
-https://templatemo.com/tm-538-digital-trend
-
-*/
 
 .font {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -12,22 +5,7 @@ https://templatemo.com/tm-538-digital-trend
   font-weight: normal;
   font-style: normal;
 }
-/* 
-@font-face {
-  font-family: "Plain-Light";
-  src: url("../fonts/Plain-Light.woff2") format("woff2"),
-    url("../fonts/Plain-Light.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "Plain-Bold";
-  src: url("../fonts/Plain-Bold.woff2") format("woff2"),
-    url("../fonts/Plain-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-} */
 
 :root {
   --primary-color: deepskyblue;
@@ -377,7 +355,7 @@ MENU
 -----------------------------------------*/
 
 .project {
-  background: var(--project-bg);
+  background: #f0f8ff;
 }
 
 .project-wrapper {
@@ -480,11 +458,11 @@ MENU
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 60px;
-  padding: 100px;
+  column-gap: 20px;
+  padding: 10px;
   background-color: #f6f6f6;
   width: 100%;
+  min-width: max-content;
 }
 .grid-container img {
   margin-bottom: 1rem;
@@ -497,15 +475,14 @@ MENU
   border: none;
   box-shadow: 5px 10px 18px #888888;
   margin-bottom: 1rem;
-  transition: transform .2s;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
-.card:hover {
-  transform: scale(1.5); 
 
-}
 
 .card-text {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 /*---------------------------------------
   ABOUT            
@@ -661,6 +638,26 @@ MENU
 /*---------------------------------------
  RESPONSIVE STYLES              
 -----------------------------------------*/
+
+@media screen and (min-width: 960px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    background-color: green;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #f0f8ff;
+    max-width: 100px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .about-info h2 {
